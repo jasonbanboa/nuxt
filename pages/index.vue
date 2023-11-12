@@ -4,4 +4,7 @@
   </div>
   <Profile />
   <SuperUnnecessarilyNestedComponentThatWorks />
+  <img class="h-12 w-32" src="~/assets/nuxt.png" alt="">
+  <img class="h-12 w-32" src="/public.jpg" alt="">
+  <IconsBell />
 </template>
