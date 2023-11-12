@@ -1,3 +1,8 @@
+<script setup>
+const { composableEx } = useUtils();
+composableEx();
+</script>
+
 <template>
   <div>
     <Alert />
