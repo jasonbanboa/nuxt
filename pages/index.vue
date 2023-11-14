@@ -1,5 +1,7 @@
 <script setup>
 const { composableEx } = useUtils();
+const { $sayHello } = useNuxtApp();
+$sayHello('J');
 composableEx();
 </script>
 
