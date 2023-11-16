@@ -1,4 +1,11 @@
-<script setup>
+<script setup lang="ts">
+useHead({
+  title: 'home page',
+  meta: [
+    { name: 'content', content: 'description'  }
+  ]
+});
+
 const { composableEx } = useUtils();
 const { $sayHello } = useNuxtApp();
 $sayHello('J');
